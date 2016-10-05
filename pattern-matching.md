@@ -59,6 +59,10 @@ def print(e: Exp): String = e match {
 
 To perform more powerful extractions and apply a series of pattern matching, use [Scala extractors](https://pragprog.com/magazines/2012-03/scala-for-the-intrigued).
 
+## Pattern match anonymous functions
+
+See [this](http://danielwestheide.com/blog/2012/12/12/the-neophytes-guide-to-scala-part-4-pattern-matching-anonymous-functions.html).
+
 ## Examples
 
 ### Lists
