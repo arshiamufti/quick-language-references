@@ -43,6 +43,22 @@ def process(location: Location): String = location match {
 }
 ```
 
+### Extract data using case classes
+
+```scala
+abstract class Exp
+
+case class Sum(exp1: Exp, exp2: Exp) extends Exp  
+case class Product(exp1: Exp, exp2: Exp) extends Exp  
+
+def print(e: Exp): String = e match {
+    case Sum(e1, e2) => "adding!"
+    case Product(e1, e2) => "multiplying!"
+}
+```
+
+To perform more powerful extractions and apply a series of pattern matching, use [Scala extractors](https://pragprog.com/magazines/2012-03/scala-for-the-intrigued).
+
 ## Examples
 
 ### Lists
@@ -73,16 +89,3 @@ def (a: Int, b: String): String = (a, b) match {
     case _ => "something else"
 
 ```
-
-### Case Classes
-
-```scala
-abstract class Exp
-
-case class Sum(exp1: Exp, exp2: Exp) extends Exp  
-case class Product(exp1: Exp, exp2: Exp) extends Exp  
-
-def print(e: Exp): String = e match {
-    case Sum(e1, e2) => "adding!"
-    case Product(e1, e2) => "multiplying!"
-}
