@@ -1,11 +1,13 @@
 # scala-resources
 
+- [ ] flatMap
 - [ ] zipWithIndex
-- [ ] range
+- [ ] ranges, mapping over a range etc
 - [ ] partial functions
 - [ ] reduceLeft, foldLeft, reduceRight, and foldRight
 - [ ] collect
 - [ ] Maps
+- [ ] List
 - [ ] Sets
 - [ ] Array
 - [ ] ArrayBuffer
