@@ -1,3 +1,5 @@
+[map](#filter)
+
 ## map, flatMap
 
 ## filter
