@@ -1,4 +1,4 @@
-* [pf](##Partial)
+* [pf](#Partial Functions)
 
 ### map
 
