@@ -1,4 +1,8 @@
-* [pf](#partial-functions)
+* [map](#map)
+* [filter](#filter)
+* [foldLeft](#foldLeft)
+* [foldRight](#foldRight)
+* [reduceLeft, reduceRight](#reduce-left-reduce-right)
 
 ### map
 
