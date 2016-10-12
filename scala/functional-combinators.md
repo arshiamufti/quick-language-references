@@ -1,8 +1,8 @@
 * [map](#map)
 * [filter](#filter)
-* [foldLeft](#foldLeft)
-* [foldRight](#foldRight)
-* [reduceLeft, reduceRight](#reduce-left-reduce-right)
+* [foldLeft](#foldleft)
+* [foldRight](#foldright)
+* [reduceLeft, reduceRight](#reduceleft-reduceright)
 
 ### map
 
