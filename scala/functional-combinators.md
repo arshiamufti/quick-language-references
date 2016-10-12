@@ -1,4 +1,4 @@
-[map](#filter)
+* [map](#map, flatMap)
 
 ## map, flatMap
 
