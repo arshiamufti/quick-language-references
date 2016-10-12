@@ -21,7 +21,7 @@ def rev(list: List[Int]): List[Int] = list.foldLeft(List())((r,c) => c::r) // re
 ```
 
 ### foldRight
-* It's like `foldLeft` except it goes over the list from the end to the beginning. Since the results of the recursive call are used for **further** calculation, the implmentation of `foldRight`, although [super pretty](https://github.com/scala/scala/blob/05016d9035ab9b1c866bd9f12fdd0491f1ea0cbb/src/library/scala/collection/LinearSeqOptimized.scala#L129), is not tail recursive and we'll get stack overflows lol.
+* It's like `foldLeft` except it goes over the list from the end to the beginning. Since the results of the recursive call are used for **further** calculation, the implementation of `foldRight`, although [super pretty](https://github.com/scala/scala/blob/05016d9035ab9b1c866bd9f12fdd0491f1ea0cbb/src/library/scala/collection/LinearSeqOptimized.scala#L129), is not tail recursive and we'll get stack overflows lol.
 * In the scala source code for `List`, the implementation of foldRight is overriden with a nice [one line implementation](https://github.com/scala/scala/blob/2.12.x/src/library/scala/collection/immutable/List.scala#L393): reverse the list, and apply `foldLeft`.
 
 ## reduceLeft, reduceRight
