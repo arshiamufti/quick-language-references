@@ -17,7 +17,7 @@ def foldLeft[B](z: B)(f: (B, A) => B): B
 ```scala
 def sum(list: List[Int]): Int = list.foldLeft(0)((r,c) => r+c) // add the numbers in a list
 def sum(list: List[Int]): Int = list.foldLeft(0)(_+_) // or do it the fancy scala way
-def rev(list: List[Int]): List[Int] = list.foldLeft(List())((r,c) => c::r) // reverse a list
+def rev(list: List[Int]): List[Int] = list.foldLeft(List[Int]())((r,c) => c::r) // reverse a list
 ```
 
 ### foldRight
