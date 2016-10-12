@@ -1,10 +1,10 @@
-* [pf](#(Partial Functions))
+* [pf](##Partial)
 
 ### map
 
 ### flatMap
 
-## filter
+### filter
 
 ### foldLeft
 
