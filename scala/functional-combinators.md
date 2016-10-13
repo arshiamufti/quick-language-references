@@ -160,5 +160,7 @@ res0: List[Int] = List(6, 7, 8, 9, 10)
 ```
 `dropWhile` removes the first elements that match a predicate function. For example, if we dropWhile odd numbers from our list of numbers, 1 gets dropped (but not 3 which is “shielded” by 2).
 
+```scala
 scala> numbers.dropWhile(_ % 2 != 0)
 res0: List[Int] = List(2, 3, 4, 5, 6, 7, 8, 9, 10)
+```
