@@ -1,6 +1,7 @@
 ### Useful Resources
 
-- [Scala school](https://twitter.github.io/scala_school/) by Twitter.
+- [Scala school](https://twitter.github.io/scala_school/) by Twitter: an introduction to scala
+- [Effective Scala](http://twitter.github.io/effectivescala/) also by Twitter: assumes Scala knowledge, talks about good code practice
 - [Official documentation](http://www.scala-lang.org/documentation/)
   - [Library API (version 2.11)](http://www.scala-lang.org/api/2.11.8/#package)
 
