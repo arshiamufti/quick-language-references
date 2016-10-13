@@ -6,11 +6,13 @@
   - [Library API (version 2.11)](http://www.scala-lang.org/api/2.11.8/#package)
 
 ### To Do
-- [ ] flatMap
-- [ ] zipWithIndex
+- [x] flatMap
+- [x] zipWithIndex, zip
+- [x] foldRight, foldLeft
+- [x] map, filter
+- [ ] reduceLeft, reduceRight
 - [ ] ranges, mapping over a range etc
 - [ ] partial functions
-- [ ] reduceLeft, foldLeft, reduceRight, and foldRight
 - [ ] collect
 - [ ] Maps
 - [ ] List
