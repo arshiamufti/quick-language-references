@@ -15,6 +15,7 @@
 - [ ] partial functions
 - [ ] collect
 - [x] random number generation
+- [ ] math (in progress)
 - [ ] Strings
 - [ ] Maps
 - [ ] List
