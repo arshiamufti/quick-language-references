@@ -64,7 +64,7 @@ def zip[B](that: GenIterable[B]): List[(A, B)]
 scala> List("a", "an", "the") zip List("bat", "apple", "tree", "book")
 res0: List[(String, String)] = List((a,bat), (an,apple), (the,tree))
 ```
-Use `zipWithIndex` to obtain a new list containing pairs consisting of all elements of this list paired with their index. Indices start at 0.
+* Use `zipWithIndex` to obtain a new list containing pairs consisting of all elements of this list paired with their index. Indices start at 0.
 
 ```scala
 scala> List("a", "an", "the").zipWithIndex
@@ -152,13 +152,14 @@ res4: List[Int] = List(6, 8)
 
 ### drop and dropWhile
 
-(took this completely from Twitter's scala school). `drop` drops the first `i` elements.
+(took this completely from Twitter's scala school).
+* `drop` drops the first `i` elements.
 
 ```scala
 scala> numbers.drop(5)
 res0: List[Int] = List(6, 7, 8, 9, 10)
 ```
-`dropWhile` removes the first elements that match a predicate function. For example, if we dropWhile odd numbers from our list of numbers, 1 gets dropped (but not 3 which is “shielded” by 2).
+* `dropWhile` removes the first elements that match a predicate function. For example, if we dropWhile odd numbers from our list of numbers, 1 gets dropped (but not 3 which is “shielded” by 2).
 
 ```scala
 scala> numbers.dropWhile(_ % 2 != 0)
