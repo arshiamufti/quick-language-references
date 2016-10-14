@@ -14,6 +14,7 @@
 - [ ] ranges, mapping over a range etc
 - [ ] partial functions
 - [ ] collect
+- [ ] Strings
 - [ ] Maps
 - [ ] List
 - [ ] Sets
