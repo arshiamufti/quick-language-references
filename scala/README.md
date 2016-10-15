@@ -15,12 +15,12 @@
 - [ ] partial functions
 - [ ] collect
 - [x] random number generation
-- [ ] math (in progress)
+- [x] math
 - [ ] Strings
 - [ ] Maps
 - [ ] List
 - [ ] Sets
-- [ ] Array
+- [ ] Array (in progress)
 - [ ] ArrayBuffer
 - [ ] PQ
 - [ ] Stack
