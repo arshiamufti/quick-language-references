@@ -2,7 +2,7 @@ Scala's [Array](http://www.scala-lang.org/api/current/index.html#scala.Array) cl
 
 **Create a fixed length array**
 
-I like using `Array.fill` since it forces you to initialize the array
+I like using `Array.fill` since it forces you to initialize the array.
 ```scala
 scala> val arr = Array.fill(4)(0)
 arr: Array[Int] = Array(0, 0, 0, 0)
@@ -26,9 +26,8 @@ And now we apply `x`!
 ```scala
 scala> x(3) 
 res1: Array[Int] = Array(3, 3, 3, 3)
-```
-       
-...as opposed to `Array.ofDim`, which you use if you don't want to initialize the array.
+```      
+You can create fixed length arrays without specifying an inital value using `Array.ofDim`.
 ```scala
 scala> Array.ofDim[Double](4)
 res1: Array[Double] = Array(0.0, 0.0, 0.0, 0.0)
@@ -36,7 +35,7 @@ res1: Array[Double] = Array(0.0, 0.0, 0.0, 0.0)
 scala> Array.ofDim[String](4)
 res2: Array[String] = Array(null, null, null, null)
 ```
-`null`s in Scala make me sad.
+But `null`s in Scala make me sad.
 
 **Change the values in an array**
 
