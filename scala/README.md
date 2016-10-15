@@ -1,10 +1,12 @@
 ### Useful Resources
 
 - [Scala school](https://twitter.github.io/scala_school/) by Twitter: an introduction to scala
-- [Effective Scala](http://twitter.github.io/effectivescala/) also by Twitter: assumes Scala knowledge, talks about good code practice
 - [Official documentation](http://www.scala-lang.org/documentation/)
   - [Library API (version 2.11)](http://www.scala-lang.org/api/2.11.8/#package)
-
+- Code Style
+  - [Effective Scala](http://twitter.github.io/effectivescala/) by Twitter
+  - [Why you shouldn't use return](https://tpolecat.github.io/2014/05/09/return.html)
+  
 ### To Do
 - [x] flatMap, flatten
 - [x] zipWithIndex, zip
