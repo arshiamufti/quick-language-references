@@ -10,6 +10,9 @@ arr: Array[Int] = Array(0, 0, 0, 0)
 scala> val arr = Array.fill(4)(List[Int]())
 arr: Array[List[Int]] = Array(List(), List(), List(), List())
 ```
+
+\* **segues into curried functions** \*
+
 `fill` is a [curried](https://github.com/scala/scala/blob/v2.11.8/src/library/scala/Array.scala#L262) function. If you don't want to specify the initial value just yet, treat it as a partially applied function.
 
 ```scala
