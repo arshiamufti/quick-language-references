@@ -19,7 +19,7 @@ scala> val x = Array.fill(4)
 scala> val x: (=> Int) => Array[Int] = Array.fill(4)_
 x: (=> Int) => Array[Int] = <function1>
 ```
-The type of x tells us that it takes in a parameter of type `=> Int`, which is a [by-name parameter](https://tpolecat.github.io/2014/06/26/call-by-name.html) and returns an integer array. Very simply, anything of type `=>A` acts like a `def`: it's evaluated whenever it's used. (This is not the same as laziness. A `lazy val` is evaluated only **once**, when it's needed, a parameter of type `=>A` is evaluated **every time** it's needed).
+The type of x tells us that it takes in a parameter of type `=> Int`, which is a [by-name parameter](https://tpolecat.github.io/2014/06/26/call-by-name.html) and returns an integer array. Very simply, anything of type `=>A` acts like a `def`: it's evaluated whenever it's used. (This is not the same as laziness. A `lazy val` is evaluated only **once**, when it's needed but a parameter of type `=>A` is evaluated **every time** it's needed).
 
 And now we apply `x`!
 
