@@ -18,7 +18,7 @@
 - [ ] collect
 - [x] random number generation
 - [x] math
-- [ ] Strings
+- [x] Strings
 - [ ] Maps
 - [ ] List
 - [ ] Sets
