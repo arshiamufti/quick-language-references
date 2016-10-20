@@ -7,6 +7,18 @@ scala> "asdf".length
 res0: Int = 4
 ```
 * `S.toCharArray` converts `S` to `Array[Char]`
+```scala
+scala> "asdf".toCharArray
+res0: Array[Char] = Array(a, s, d, f)
+```
+* use `mkString` to convert from `Array[Char]` back to a string
+```scala
+scala> val charArr = Array('c', 'h', 'a', 'r')
+charArr: Array[Char] = Array(c, h, a, r)
+
+scala> charArr.mkString
+res1: String = char
+```
 * `S.reverse` returns the string backwards
 * `S.isEmpty` is the same as `S.length == 0`, `S.nonEmpty` is the same as `S.length != 0`
 * Append two strings using the `+` operator.
@@ -42,6 +54,12 @@ res6: String = HellowoRld
 ```scala
 scala> "hello world".split(" ")
 res7: Array[String] = Array(hello, world)
+
+scala> val kvpairs = "key1=value1&key2=value2&key3=value3" split "&"
+kvpairs: Array[String] = Array(key1=value1, key2=value2, key3=value3)
+
+scala> kvpairs map { pair => pair.split("=") }
+res8: Array[Array[String]] = Array(Array(key1, value1), Array(key2, value2), Array(key3, value3))
 ```
 * **Replacing parts of strings**
   * `S.replace(c1, c2)` returns a new string with **all** characters `c1` replaced by `c2`
