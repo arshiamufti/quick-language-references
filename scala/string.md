@@ -36,7 +36,7 @@ res5: String = HELLOWORLD
 scala> "hellowoRld".capitalize
 res6: String = HellowoRld
 ```
-* `S.startsWith(T)` returns `true` if `S` **starts** with `T`. `S.endsWith(T)` returns `true` if `S` **ends** with `T`.
+* `S.startsWith(T)` returns `true` if `S` **starts** with `T` (a string). `S.endsWith(T)` returns `true` if `S` **ends** with `T`.
 * **Trim whitespace**: `S.trim` returns a **copy** of the string with white space at both ends removed.
 * **Replacing parts of strings**
   * `S.replace(c1, c2)` returns a new string with **all** characters `c1` replaced by `c2`
