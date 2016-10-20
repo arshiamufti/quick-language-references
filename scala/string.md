@@ -38,6 +38,11 @@ res6: String = HellowoRld
 ```
 * `S.startsWith(T)` returns `true` if `S` **starts** with `T` (a string). `S.endsWith(T)` returns `true` if `S` **ends** with `T`.
 * **Trim whitespace**: `S.trim` returns a **copy** of the string with white space at both ends removed.
+* **Split a string**: `S.split(T)` returns an `Array[String]` with `S` broken down into tokens separated by `T`
+```scala
+scala> "hello world".split(" ")
+res7: Array[String] = Array(hello, world)
+```
 * **Replacing parts of strings**
   * `S.replace(c1, c2)` returns a new string with **all** characters `c1` replaced by `c2`
   * `S.replace(T1, T2)` returns a new string with **all** occurrences of the substring `T1` replaced by `T2`
