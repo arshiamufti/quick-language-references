@@ -25,7 +25,7 @@
 - [ ] Array (in progress)
 - [ ] ArrayBuffer
 - [ ] PQ
-- [ ] Stack
+- [x] Stack
 - [ ] Queue
 - [ ] Streams
 - [ ] bring over stuff from google docs
