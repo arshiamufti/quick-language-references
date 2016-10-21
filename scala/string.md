@@ -32,6 +32,8 @@ res1: String = loworld
 scala> "helloworld".substring(3, 5)
 res2: String = lo
 ```
+* `S.drop(i)` drops the **first** `i` characters. `S.dropRight(i)` drops the **last** `i` characters.
+* `S.take(i)` takes the **first** `i` characters. `S.takeRight(i)` takes the **last** `i` characters.
 * `S.contains(T)` returns `true` if `T` is a substring of `S`
 ```scala
 scala> "helloworld".contains("ello")
