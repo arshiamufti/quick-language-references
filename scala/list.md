@@ -23,6 +23,8 @@ scala> val lst = List.range(1, 10, 2) // 2 is the "step"
 lst: List[Int] = List(1, 3, 5, 7, 9)
 ```
 
+Also see [ranges](ranges.md) in Scala.
+
 ### Prepending, appending, concatenating
 
 ```scala
