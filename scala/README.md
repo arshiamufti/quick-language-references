@@ -4,7 +4,7 @@
 - [Official documentation](http://www.scala-lang.org/documentation/)
   - [Library API (version 2.11)](http://www.scala-lang.org/api/2.11.8/#package)
     - [Immutable Collections](http://docs.scala-lang.org/overviews/collections/concrete-immutable-collection-classes) (lists, vectors, ranges
-    - [Arrays])(http://docs.scala-lang.org/overviews/collections/arrays)
+    - [Arrays](http://docs.scala-lang.org/overviews/collections/arrays)
     - [Sets](http://docs.scala-lang.org/overviews/collections/sets)
     - [Maps](http://docs.scala-lang.org/overviews/collections/maps)
   - [Effective Scala](http://twitter.github.io/effectivescala/) by Twitter
