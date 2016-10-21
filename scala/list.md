@@ -76,7 +76,7 @@ scala> lst.startsWith(List(5, 7), 2)
 res70: Boolean = true
 ```
 * `partition(p: (A) ⇒ Boolean): (List[A], List[A])` returns a pair of lists. The first contains elements that satisfy the predicate `p` and the second contains those that don't. Relative ordering is maintained
-* `permutations` returns an iterator over all the permutations of the list
+* `permutations` returns an iterator over all the permutations of the list that you can `map` or `foreach` over, etc.
 
 ### **Return certain parts of the list**
 * `head` returns the first element
