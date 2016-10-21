@@ -13,14 +13,14 @@
 - [x] foldRight, foldLeft
 - [x] map, filter, foreach
 - [ ] reduceLeft, reduceRight
-- [ ] ranges, mapping over a range etc
+- [x] ranges, mapping over a range etc
 - [ ] partial functions
 - [ ] collect
 - [x] random number generation
 - [x] math
 - [x] Strings
 - [ ] Maps
-- [ ] List
+- [x] List
 - [ ] Sets
 - [ ] Array (in progress)
 - [ ] ArrayBuffer
