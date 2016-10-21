@@ -65,7 +65,7 @@ res54: Boolean = false
 * `init` returns all elements except the last
 * `drop(i)` drops the **first** `i` elements. `dropRight(i)` drops the **last** `i` elements.
 * `take(i)` takes the **first** `i` elements. `takeRight(i)` takes the **last** `i` elements.
-* `find(p)` returns the first element of the list that satisfies the predicate `p`.
+* `find(p)` returns the first element of the list (an `Option` type) that satisfies the predicate `p`.
 * `min` and `max` return the smallest and largest element respectively.
 
 ### Sorting
