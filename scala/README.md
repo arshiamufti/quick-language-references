@@ -3,7 +3,10 @@
 - [Scala school](https://twitter.github.io/scala_school/) by Twitter: an introduction to scala
 - [Official documentation](http://www.scala-lang.org/documentation/)
   - [Library API (version 2.11)](http://www.scala-lang.org/api/2.11.8/#package)
-- Code Style
+    - [Immutable Collections](http://docs.scala-lang.org/overviews/collections/concrete-immutable-collection-classes) (lists, vectors, ranges
+    - [Arrays])(http://docs.scala-lang.org/overviews/collections/arrays)
+    - [Sets](http://docs.scala-lang.org/overviews/collections/sets)
+    - [Maps](http://docs.scala-lang.org/overviews/collections/maps)
   - [Effective Scala](http://twitter.github.io/effectivescala/) by Twitter
   - [Why you shouldn't use return](https://tpolecat.github.io/2014/05/09/return.html)
   
@@ -21,8 +24,8 @@
 - [x] Strings
 - [x] Maps
 - [x] List
-- [ ] Sets
-- [ ] Array (in progress)
+- [ ] **Sets (in progress)**
+- [ ] **Array (in progress)**
 - [ ] ArrayBuffer
 - [ ] PQ
 - [x] Stack
