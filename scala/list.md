@@ -37,6 +37,8 @@ res51: List[Int] = List(-1, -2, -3, 1, 3, 5, 7, 9) // append lists
 ```
 
 ### **Cute little useful functions**
+* `isEmpty` tests if the list is empty. `nonEmpty` tests if it isn't empty
+* `mkString` converts the list to a string
 * `contains(a)` tests if the list contains `a`.
 ```scala
 scala> lst contains 1
@@ -52,12 +54,20 @@ res54: Boolean = false
 * `distinct` returns the list with duplicate elements removed
 * `reverse` reverses the list
 * `count(p)` counts the number of elements in the list that satisfy the predicate `p`
-* `sum` sums up the elements in the list
+* `sum` sums up the elements in the list, `product` multiplies them
 * `padTo(len, elem)` appends `elem` to the list until the length `len` is achieved
 * `exists(p)` tests if at **least one** element of the list satisfies the predicate `p`
 * `forall(p)` tests if **all** elements of the list satisfy the predicate `p`
-* `isEmpty` tests if the list is empty. `nonEmpty` tests if it isn't empty
-* `mkString` converts the list to a string
+* `startsWith(l)` tests if the list starts with the `l`. It can also take an additional `Int` field, the index to start comparing from.
+```scala
+scala> lst.startsWith(List(1, 3))
+res69: Boolean = true
+
+scala> lst.startsWith(List(5, 7), 2)
+res70: Boolean = true
+```
+* `partition(p: (A) ⇒ Boolean): (List[A], List[A])` returns a pair of lists. The first contains elements that satisfy the predicate `p` and the second contains those that don't. Relative ordering is maintained
+* `permutations` returns an iterator over all the permutations of the list
 
 ### **Return certain parts of the list**
 * `head` returns the first element
@@ -71,4 +81,6 @@ res54: Boolean = false
 ### Sorting
 * `sorted` sorts the list
 * `sortWith(lt: (A, A) ⇒ Boolean): List[A]` sorts the list according to `lt`, the comparison function which tests whether its first argument precedes its second argument in the desired ordering.
+
+Also see functional combinators.
 
