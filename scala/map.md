@@ -4,8 +4,33 @@ Scala's [immutable Map](http://www.scala-lang.org/api/current/scala/collection/i
 import scala.collection.mutable.Map
 ```
 
+### Immutable Maps
+All of this applies to mutable maps as well
+
+**Accessing values**
+
+* `m.get(k)` returns the value associated with `k` as an `Option` or `None` if it doesn't exist
+* m(k) returns the value associated with `k` or throws an exception if not found
+* m.getOrElse(k) returns the value associated with `k` or the default value `d` if not found
+* m.contains(k) tests if `m` contains a mapping of the key `k`, equivalent to `isDefinedAt`
+
+**Update**
+
+* `m + (k -> v)`	returns the map containing all mappings of `m` plus the mapping k -> v. There's also `m + (k -> v, l -> w...)`
+* `m ++ kvs` returns the map containing all mappings of ms as well as all key/value pairs of `kvs` (list of key value pairs)
+
+**Remove**
+
+* There's `-` equivalents for the above
+
+**Subcollections**
+
+* `m.keys`	returns an iterable containing each key in `m`
+* `m.values`	returns an iterable containing each key in `m`
+
 ### Mutable Maps
 
+Additional stuff.
 **Create**
 ```scala
 scala> var m = Map[Int, String]()
