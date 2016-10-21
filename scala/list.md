@@ -41,11 +41,17 @@ res51: List[Int] = List(-1, -2, -3, 1, 3, 5, 7, 9) // append lists
 * `mkString` converts the list to a string
 * `contains(a)` tests if the list contains `a`.
 ```scala
+scala> lst
+res68: List[Int] = List(1, 3, 5, 7, 9)
+
 scala> lst contains 1
 res52: Boolean = true
 ```
 * `containsSlice(l)` tests if the list contains the slice `l`.
 ```scala
+scala> lst
+res68: List[Int] = List(1, 3, 5, 7, 9)
+
 scala> lst containsSlice List(3, 5, 7)
 res53: Boolean = true
 scala> lst containsSlice List(3, 5, 10)
@@ -60,6 +66,9 @@ res54: Boolean = false
 * `forall(p)` tests if **all** elements of the list satisfy the predicate `p`
 * `startsWith(l)` tests if the list starts with the `l`. It can also take an additional `Int` field, the index to start comparing from.
 ```scala
+scala> lst
+res68: List[Int] = List(1, 3, 5, 7, 9)
+
 scala> lst.startsWith(List(1, 3))
 res69: Boolean = true
 
