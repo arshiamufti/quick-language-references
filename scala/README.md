@@ -19,7 +19,7 @@
 - [x] random number generation
 - [x] math
 - [x] Strings
-- [ ] Maps
+- [x] Maps
 - [x] List
 - [ ] Sets
 - [ ] Array (in progress)
