@@ -33,6 +33,7 @@ All of this applies to mutable maps as well
 The above functions act on mutable maps exactly like they would on an immutable map, aka they don't do any mutation or have any side effects.
 
 Additional stuff for mutable maps.
+
 **Create**
 ```scala
 scala> var m = Map[Int, String]()
