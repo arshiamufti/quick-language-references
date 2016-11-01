@@ -33,3 +33,4 @@
 - [ ] Streams
 - [ ] bring over stuff from google docs
 - [ ] Classes  (see https://www.safaribooksonline.com/library/view/scala-cookbook/9781449340292/ch04s03.html)
+- [ ] load from repl (see http://stackoverflow.com/questions/9560917/how-to-run-an-external-file-from-within-the-scala-interactive-interpreter-repl)
