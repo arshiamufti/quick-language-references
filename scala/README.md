@@ -24,7 +24,7 @@
 - [x] Strings
 - [x] Maps
 - [x] List
-- [ ] **Sets (in progress)**
+- [x] Sets
 - [ ] **Array (in progress)**
 - [ ] ArrayBuffer
 - [ ] PQ
