@@ -78,6 +78,27 @@ scala> lst.startsWith(List(5, 7), 2)
 res70: Boolean = true
 ```
 * `partition(p: (A) ⇒ Boolean): (List[A], List[A])` returns a pair of lists. The first contains elements that satisfy the predicate `p` and the second contains those that don't. Relative ordering is maintained
+* **`groupBy`**
+```scala
+def groupBy [K] (f: (A) ⇒ K): Map[K, Traversable[A]]
+```
+The `groupBy` function takes in a function `f`, called the **discriminator** function. `groupBy` acts on a `List[A]`. `f` is applied to each element to return something of type `K`, and the result is a map in which elements of the list are grouped by the return value of `f`. In other words, the elements of the list are **grouped by** `f`.
+```scala
+scala> val books = List("Anne of Green Gables", "A Wrinkle in Time", "Heidi", "A Little Princess", "Harry Potter")
+books: List[String] = List(Anne of Green Gables, A Wrinkle in Time, Heidi, A Little Princess, Harry Potter)
+
+scala> books.groupBy(_.charAt(0))
+res28: scala.collection.immutable.Map[Char,List[String]] = Map(A -> List(Anne of Green Gables, A Wrinkle in Time, A Little Princess), H -> List(Heidi, Harry Potter))
+
+scala> books.groupBy(_.size)
+res29: scala.collection.immutable.Map[Int,List[String]] = Map(17 -> List(A Wrinkle in Time, A Little Princess), 20 -> List(Anne of Green Gables), 5 -> List(Heidi), 12 -> List(Harry Potter))
+
+scala> List(1, 2, 3, 4, 5, 6, 7).groupBy {
+     | case even if (even % 2 == 0) => "even"
+     | case _ => "odd"
+     | }
+res32: scala.collection.immutable.Map[String,List[Int]] = Map(odd -> List(1, 3, 5, 7), even -> List(2, 4, 6))
+```
 * `permutations` returns an iterator over all the permutations of the list that you can `map` or `foreach` over, etc.
 
 ### **Return certain parts of the list**
