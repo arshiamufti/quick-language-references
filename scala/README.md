@@ -2,7 +2,7 @@
 
 - [Scala school](https://twitter.github.io/scala_school/) by Twitter: an introduction to scala
 - [Official documentation](http://www.scala-lang.org/documentation/)
-  - [Library API (version 2.11)](http://www.scala-lang.org/api/2.11.8/#package)
+  - [Library API (version 2.12.0)](http://www.scala-lang.org/api/current/#package)
     - [Immutable Collections](http://docs.scala-lang.org/overviews/collections/concrete-immutable-collection-classes) (lists, vectors, ranges
     - [Arrays](http://docs.scala-lang.org/overviews/collections/arrays)
     - [Sets](http://docs.scala-lang.org/overviews/collections/sets)
