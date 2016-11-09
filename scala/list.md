@@ -112,6 +112,7 @@ res32: scala.collection.immutable.Map[String,List[Int]] = Map(odd -> List(1, 3, 
 
 ### Sorting
 * `sorted` sorts the list
+* `sortBy`: `("asd", "fg", "wqty").sortBy(_.size)` sorts by size in increasing order. Adding `(Ordering[Int].reverse)` sorts it by size in decreasing order.
 * `sortWith(lt: (A, A) ⇒ Boolean): List[A]` sorts the list according to `lt`, the comparison function which tests whether its first argument precedes its second argument in the desired ordering.
 
 Also see functional combinators.
