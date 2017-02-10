@@ -25,5 +25,5 @@ i should add to this
 const int NUM = 5;
 int arr[NUM];
 ```
-[doesn't compile](http://c-faq.com/ansi/constasconst.html) for reasons.
+doesn't compile for [reasons]((http://c-faq.com/ansi/constasconst.html).
 
