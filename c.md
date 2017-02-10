@@ -2,6 +2,8 @@ i should add to this
 
 ## Bit arithmethic (which I should have remembered but /shrug whatever)
 
+[A mini catalogue of every bit manipulation trick I'll ever need](https://graphics.stanford.edu/~seander/bithacks.html)
+
 (recap: one byte = 8 bits = 2 nibbles)
 
 32 bits = one word of memory for 32-bit systems
