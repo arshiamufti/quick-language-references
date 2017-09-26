@@ -40,6 +40,19 @@ res2: Array[String] = Array(null, null, null, null)
 ```
 But `null`s in Scala make me sad.
 
+**creating two dimensional arrays, fixed size**
+
+```
+scala> val rows = 5
+rows: Int = 5
+
+scala> val columns = 3
+columns: Int = 3
+
+scala> val a = Array.ofDim[Int](rows, columns)
+a: Array[Array[Int]] = Array(Array(0, 0, 0), Array(0, 0, 0), Array(0, 0, 0), Array(0, 0, 0), Array(0, 0, 0))
+```
+
 **Change the values in an array**
 
 Scala arrays, like arrays in Java are fixed length, but their elements can be mutated.
