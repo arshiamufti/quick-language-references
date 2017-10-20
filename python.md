@@ -34,3 +34,14 @@ copy.deepcopy(thing)
      [(1, 3, 5), (2, 4, 6)]
      ```
 - reversing a list: either do `list(reversed(the_list))` or `the_list[::-1]`
+
+**infinity**
+
+```
+positive_inf = float("inf")
+negative_inf = float("-inf")
+
+# can be compared to other numbers (ints, floats, doubles)
+```
+
+
