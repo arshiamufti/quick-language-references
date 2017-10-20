@@ -26,3 +26,11 @@ copy.deepcopy(thing)
 - random string stuff: `lower()`, `isalnum()`, `len()` etc
 - sorting tuples: `merged = sorted(some_collection_of_tuples, key = lambda x: x[0])`
 - dictionaries: `dict.get(key, default_value)` -> returns `default_value` if `key not in dict`
+- this `*` thing:
+     - say `m = [[1, 2], [3, 4], [5, 6]]`. Then `zip(*m)` is equivalent to `zip([1, 2], [3, 4], [5, 6])` so `*` allows us to specify multiple arguments (lists) as one (list of lists).
+     
+     ```python
+     >>> zip([1, 2], [3, 4], [5, 6])
+     [(1, 3, 5), (2, 4, 6)]
+     ```
+- reversing a list: either do `list(reversed(the_list))` or `the_list[::-1]`
