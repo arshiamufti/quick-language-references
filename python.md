@@ -47,4 +47,4 @@ negative_inf = float("-inf")
 # can be compared to other numbers (ints, floats, doubles)
 ```
 
-**collections (ordered dict, deques) | (docs)[https://docs.python.org/2/library/collections.html]*
+**collections (ordered dict, deques) | (docs)[https://docs.python.org/2/library/collections.html]**
