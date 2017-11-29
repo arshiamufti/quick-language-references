@@ -37,6 +37,7 @@ copy.deepcopy(thing)
      ```
 - reversing a list: either do `list(reversed(the_list))` or `the_list[::-1]`
      - traversing a reversed range: `for i in reversed(range(10)) # 9, 8, ..., 0`
+- list functions: `pop()` deletes the last element of the list, or if specified, the element at an index
 
 **infinity**
 
