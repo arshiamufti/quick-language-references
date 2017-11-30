@@ -24,6 +24,12 @@ import copy
 copy.deepcopy(thing)
 ```
 
+- **random**
+     - import: `import random`
+     - `random.randint(a, b)` for a random integer in [a, b]
+     - `random.choice(seq)` to pick a random element in the sequence
+     - `random.random()` to get a random floating point number in [0.0, 1.0)
+     - [docs](https://docs.python.org/2/library/random.html)
 - sets: create using `set()`, use `frozenset`s if you want immutable sets (useful if you want sets of sets because sets cannot contain mutable objects)
 - random string stuff: `lower()`, `isalnum()`, `len()` etc
 - sorting tuples: `merged = sorted(some_collection_of_tuples, key = lambda x: x[0])`
@@ -49,3 +55,5 @@ negative_inf = float("-inf")
 ```
 
 **collections (ordered dict, deques) | [docs](https://docs.python.org/2/library/collections.html)**
+
+**sockets | [docs](https://docs.python.org/2/library/socket.html)**
